@@ -10,3 +10,9 @@ print("O nome", entrada, "de trás para a frente é", entrada[::-1])
 print("Em caixa alta:", entrada.upper())
 print("Em caixa baixa:", entrada.lower())
 print("A primeira letra do nome", entrada, "é", entrada[0:1])
+
+numeros = input("digite 3 números: ")
+numero1 = numeros[0:1]
+numero2 = numeros[1:2]
+numero3 = numeros[2:3]
+print("A soma dos 3 números é:", int(numero1) + int(numero2) + int(numero3))
